@@ -13,7 +13,7 @@ export default function Login() {
   
     if (username && password) {
       try {
-        const response = await fetch('https://backend-ghackk-1.onrender.com/', {
+        const response = await fetch('https://backend-ghackk-grqi.vercel.app/', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',

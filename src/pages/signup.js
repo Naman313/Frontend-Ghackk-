@@ -28,7 +28,7 @@ const SignUp = () => {
     }
 
     try {
-      const response = await fetch('https://backend-ghackk-1.onrender.com//api/auth/signup', {
+      const response = await fetch('https://backend-ghackk-grqi.vercel.app/api/auth/signup', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
