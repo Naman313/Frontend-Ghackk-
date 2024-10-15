@@ -24,7 +24,7 @@ const Favorites = () => {
     const fetchFavorites = async () => {
       const user = JSON.parse(localStorage.getItem('user')); // Get user from local storage
       try {
-        const response = await fetch(`http://localhost:5000/fav/${user._id}`);
+        const response = await fetch(`https://backend-ghackk-1.onrender.com//fav/${user._id}`);
         if (response.ok) {
           const data = await response.json();
           console.log(data)
