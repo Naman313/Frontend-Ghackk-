@@ -31,6 +31,7 @@ const SignUp = () => {
       const response = await fetch('https://backend-ghackk-grqi.vercel.app/api/auth/signup', {
         method: 'POST',
         headers: {
+          'Access-Control-Allow-Origin': "https://frontend-ghackk.vercel.app/",
           'Content-Type': 'application/json',
         },
         body: JSON.stringify({
