@@ -13,7 +13,7 @@ export default function Login() {
   
     if (username && password) {
       try {
-        const response = await fetch('https://backend-ghackk-1.onrender.com/api/auth/login', {
+        const response = await fetch('https://backend-ghackk-1.onrender.com/', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
